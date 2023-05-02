@@ -255,11 +255,18 @@ footer{
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 30px;
+    row-gap: 5px;
     font-family: 'Comfortaa', cursive;
+    grid-template-areas: 
+    "contacto newsletter redes"
+    "contacto derechos redes"
+    ;
 }
 
 .contacto{
+    grid-area: contacto;
     background-color: #D9D9D9;
     height: 100px;
     font-size: 14px;
@@ -269,6 +276,9 @@ footer{
     padding: 2px;
     border-radius: 20px;
     box-shadow: 3px 3px 1px #856664;
+}
+.derechos{
+    grid-area: derechos;
 }
 
 .contacto p{
@@ -295,15 +305,49 @@ footer{
     width: 20px;
     padding: 2px;
 }
-.derechos{
+.derecho{
     /* background-color: #D9D9D9; */
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-self: flex-start;
+    align-self: flex-end;
+}
+.newsletter{
+    grid-area: newsletter;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    /* align-self: flex-end; */
+    margin: 20px;
+    height: 100px;
+    width: auto;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #856664;
+}
+.subscribe{
+    padding: 10px;
+}
+.subscribe input{
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #856664;
+}
+
+.subscribe button{
+    color: #D9D9D9;
+    background-color: #440401;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 1px #856664;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
 }
 
 .redes{
+    grid-area:redes;
     background-color: #D9D9D9;
     margin: 20px;
     margin-right: 40px;
@@ -323,6 +367,14 @@ footer{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.derecho h3{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #020202;
+    /* text-shadow: 3px 3px 3px 3px #856664; */
+    text-shadow: 1px 1px 2px #856664, 0 0 1em #D9D9D9, 0 0 0.2em black;
 }
 
 /* div p{
