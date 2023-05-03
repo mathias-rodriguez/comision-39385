@@ -241,13 +241,10 @@ h1{
 }
 .us-parrafo{
     display: grid;
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: 1fr; */
     grid-template-columns: 1fr;
     grid-template-rows: max-content;
     margin: 0px 130px;
     margin-bottom: 50px;
-    /* gap: 50px; */
 }
 .us-parrafo p{
     color: #856664;
@@ -257,10 +254,18 @@ h1{
     padding: 10px;
     background-color:#D9D9D9;
     border-radius: 20px;
-    /* height: fit-content; */
     width: auto;
     box-shadow: 3px 3px 1px #856664;
-
+}
+#carouselExampleCaptions{
+    height: 500px;
+    width: 700px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item img{
+    object-fit: cover;
 }
 
 /* FOOTER */
@@ -282,7 +287,11 @@ footer{
     "contacto derechos redes"
     ;
 }
-
+/* footer h3{
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+} */
 .contacto{
     grid-area: contacto;
     background-color: #D9D9D9;
@@ -295,6 +304,7 @@ footer{
     border-radius: 20px;
     box-shadow: 3px 3px 1px #856664;
 }
+
 .derechos{
     grid-area: derechos;
 }
@@ -322,6 +332,9 @@ footer{
     height: 20px;
     width: 20px;
     padding: 2px;
+}
+.ubicacion{
+    font-size: 14px;
 }
 .derecho{
     /* background-color: #D9D9D9; */
@@ -398,7 +411,27 @@ footer{
     /* text-shadow: 3px 3px 3px 3px #856664; */
     text-shadow: 1px 1px 2px #856664, 0 0 1em #D9D9D9, 0 0 0.2em black;
 }
-
+/* .contacto-bt{
+    grid-area: contacto;
+    background-color: #D9D9D9;
+    height: 100px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #856664;
+}
+.mail-bt{
+    display: inline-flex;
+    align-items: center;
+}
+.mail-bt img{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+} */
 /* div p{
     color: #000000;
     font-family: 'Comfortaa', cursive;
@@ -409,5 +442,4 @@ section h3{
     color: #000000;
     font-family: 'Comfortaa', cursive;
     font-style: italic;
-} */
-
+} *
