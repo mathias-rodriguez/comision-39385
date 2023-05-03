@@ -380,12 +380,14 @@ footer{
     align-self: flex-end;
 }
 .newsletter{
-    opacity: 80%;
+    /* opacity: 80%; */
     grid-area: newsletter;
     display: inline-flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     /* align-self: flex-end; */
+    /* padding: 10px; */
     margin: 20px;
     height: 100px;
     width: auto;
@@ -393,8 +395,17 @@ footer{
     border-radius: 20px;
     box-shadow: 3px 3px 1px #856664;
 }
+.newsletter-titulo{
+    padding: 10px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 .subscribe{
     padding: 10px;
+    padding-top: 0;
 }
 .subscribe input{
     border: none;
@@ -432,6 +443,8 @@ footer{
     padding: 10px;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .redes-iconos{
@@ -493,8 +506,8 @@ footer{
 .ubicacion{
     margin-top: 4px;
 }
-.newsletter-titulo-bt h2{
-    font-size: 24px;
+.newsletter-titulo-bt h3{
+    font-size: 20px;
     font-weight: bold;
 }
 .subscribe-bt{
@@ -531,7 +544,9 @@ footer{
     justify-content: center;
 }
 .redes-titulo-bt h3{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 /* div p{
     color: #000000;
@@ -544,3 +559,32 @@ section h3{
     font-family: 'Comfortaa', cursive;
     font-style: italic;
 } * */
+
+@media(max-width:1024px){
+    .navbar-li a{
+        font-size: 16px;
+    }
+    .navbar-li{
+        gap: 40px;
+    }
+    .contacto{
+        font-size: 12px;
+    }
+    footer h2{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+    }
+    .titulo-articulo {
+        font-size: 16px;
+    }
+    .redes-titulo{
+        font-size: 16px;
+    }
+    .subscribe input{
+        margin: 3px;
+    }
+    .newsletter-titulo h3{
+        margin-bottom: 0px;
+    }
+}
