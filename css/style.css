@@ -77,6 +77,7 @@ header{
 
 #search{
     height: 40px;
+    width: 100px;
     border-radius: 20px;
     border: solid 3px black;
     text-align: right;
@@ -565,7 +566,7 @@ section h3{
         font-size: 16px;
     }
     .navbar-li{
-        gap: 40px;
+        gap: 20px;
     }
     .contacto{
         font-size: 12px;
@@ -586,5 +587,121 @@ section h3{
     }
     .newsletter-titulo h3{
         margin-bottom: 0px;
+    }
+}
+@media(max-width:768px){
+    header{
+        background-image: url(../assets/img/micro-bandana.jpg);
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo{
+        margin: 0;
+    }
+    .navbar-li a{
+        font-size: 22px;
+    }
+    .navbar-li{
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+    .buscador{
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .contacto{
+        height: 150px;
+        margin: 20px;
+        font-size: 20px;
+    }
+    .contacto h3{
+        font-size: 28px;
+    }
+    .contacto img{
+        height: 40px;
+        width: auto;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 22px;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+    footer h2{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+    }
+    .titulo-articulo {
+        font-size: 20px;
+    }
+    .redes-titulo{
+        font-size: 30px;
+    }
+    .redes-iconos img{
+        height: 50px;
+    }
+    .newsletter-titulo h3{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .subscribe input{
+        text-align: center;
+        font-size: 16px;
+        height: 40px;
+        width: 200px;
+    }
+    .subscribe button{
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+    }
+    footer{
+        background-image: url(../assets/img/casete-3.jpg);
+        background-size: cover;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        grid-template-areas: 
+        "contacto"
+        "redes"
+        "newsletter"
+        "derechos"
+    }
+    .newsletter{
+        height: 150px;
+        margin: 20px;
+    }
+    .redes{
+        height: 150px;
+        margin: 20px;
+    }
+    .derechos h3{
+        font-size: 20px;
+    }
+    .derechos{
+        height: fit-content;
+        align-self: center;
+    }
+}
+
+@media(max-width:425px){
+    header{
+        background-image: url(../assets/img/micro-bandana.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100vh;
+    }
+    .logo img{
+        
+    }
+    .navbar-li{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
