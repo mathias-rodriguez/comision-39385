@@ -24,7 +24,7 @@ body{
     background-color: black;
 }
 
-.header{
+header{
     width: 100%;
     background-image: url(../assets/img/micro-bandana-crop.jpg);
     /* background-color: #818181; */
@@ -256,16 +256,6 @@ h1{
     border-radius: 20px;
     width: auto;
     box-shadow: 3px 3px 1px #856664;
-}
-#carouselExampleCaptions{
-    height: 500px;
-    width: 700px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-.carousel-item img{
-    object-fit: cover;
 }
 
 /* FOOTER */
