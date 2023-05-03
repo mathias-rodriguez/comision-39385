@@ -24,7 +24,7 @@ body{
     background-color: black;
 }
 
-header{
+.header{
     width: 100%;
     background-image: url(../assets/img/micro-bandana-crop.jpg);
     /* background-color: #818181; */
