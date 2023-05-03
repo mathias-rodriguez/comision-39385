@@ -258,6 +258,39 @@ h1{
     box-shadow: 3px 3px 1px #856664;
 }
 
+
+
+
+#carouselExampleCaptions{
+    margin: 20px 20%;
+    margin-bottom: 40px;
+    /* width: 700px;
+    height: 500px; */
+}
+.carousel-item img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.h1-bt{
+    font-weight: bold;
+}
+.navbar-bt{
+    margin-top: 15px;
+}
+
+.footer-bt h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 footer{
@@ -401,7 +434,7 @@ footer{
     /* text-shadow: 3px 3px 3px 3px #856664; */
     text-shadow: 1px 1px 2px #856664, 0 0 1em #D9D9D9, 0 0 0.2em black;
 }
-/* .contacto-bt{
+.contacto-bt{
     grid-area: contacto;
     background-color: #D9D9D9;
     height: 100px;
@@ -420,8 +453,39 @@ footer{
 .mail-bt img{
     height: 20px;
     width: 20px;
+    margin: 0;
+    justify-content: center;
     align-items: center;
-} */
+}
+.mail-bt p{
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+.telefono-wasap-bt{
+    display: inline-flex;
+    justify-content: center;
+    margin: 4px 0;
+}
+.telefono-wasap-bt p{
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+.telefono-wasap-bt img{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+.ubicacion{
+    margin-top: 4px;
+}
+.newsletter-titulo-bt h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 /* div p{
     color: #000000;
     font-family: 'Comfortaa', cursive;
@@ -432,4 +496,4 @@ section h3{
     color: #000000;
     font-family: 'Comfortaa', cursive;
     font-style: italic;
-} *
+} * */
