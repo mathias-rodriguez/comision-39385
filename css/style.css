@@ -259,7 +259,20 @@ h1{
 }
 
 
-
+.carousel-inner h5{
+    font-size: 34px;
+    color: #b90b00;
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px 1px #856664, 0 0 0.1em #D9D9D9, 0 0 0.1em black; */
+    text-shadow: 1px 1px 1px #856664;
+}
+.carousel-inner p{
+    font-weight: bold;
+    color: #D9D9D9;
+    text-shadow: 1px 1px 1px #440401;
+    font-size: 24px;
+    text-transform: capitalize;
+}
 
 #carouselExampleCaptions{
     margin: 20px 20%;
