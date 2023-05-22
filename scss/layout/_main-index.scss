@@ -13,7 +13,7 @@
 }
 .main-index{
     .titulo-principal{
-        background-image: url(../../assets/img/ds-letras.png);
+        background-image: url(/assets/img/ds-letras.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -32,9 +32,9 @@
 @-webkit-keyframes titulo-principal {
     0%,
     100% {
-      opacity: 1;
+    opacity: 1;
     }
-    -0.02% {
+    0.02% {
       opacity: 1;
     }
     0% {
@@ -292,7 +292,7 @@
     100% {
       opacity: 1;
     }
-    -0.02% {
+    0.02% {
       opacity: 1;
     }
     0% {
