@@ -1,0 +1,151 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/casete-3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    // gap: 30px;
+    justify-items: center;
+    row-gap: 5px;
+    font-family: 'Raleway', sans-serif;
+    grid-template-areas: 
+    "contacto newsletter redes"
+    "contacto derechos redes";
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-area: contacto;
+        background-color: $gris-claro;
+        height: 100px;
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+        margin: 20px;
+        // margin-left: 40px;
+        padding: 2px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 1px $gris-rosa;
+        div{
+            padding: 2px;
+            display: inline-flex;
+            align-items: center;
+            a{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            p{
+                padding: 5px;
+            }
+        }
+        h3{
+            padding: 2px;
+            font-size: 14px;
+        }
+    }
+    .telefono-wasap{
+        display: inline-flex;
+        align-items: center;
+        a{
+            img{
+                height: 20px;
+                width: 20px;
+                padding: 2px;
+            }
+        }
+        p{
+            padding: 5px;
+        }
+    }
+    .newsletter{
+        grid-area: newsletter;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin: 20px;
+        height: 100px;
+        width: 300px;
+        background-color: $gris-claro;
+        border-radius: 20px;
+        box-shadow: 3px 3px 1px $gris-rosa;
+        div{
+            padding: 10px;
+            padding-top: 8px;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            font-size: 16px;
+            form{
+                div{
+                    padding: 10px;
+                    padding-top: 0;
+                    input{
+                        border: none;
+                        padding: 3px;
+                        border-radius: 10px;
+                        box-shadow: 3px 3px 1px $gris-rosa;
+                    }
+                    button{
+                        color: $gris-claro;
+                        background-color: $bordo;
+                        padding: 5px;
+                        border-radius: 10px;
+                        border: none;
+                        box-shadow: 3px 3px 1px $gris-rosa;
+                        font-family: 'Raleway', sans-serif;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: $rojo;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .derechos{
+        grid-area: derechos;
+        div{
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-self: flex-end;
+            h3{
+                margin-top: 5px;
+                font-weight: bold;
+                font-size: 18px;
+                color: #020202;
+                text-shadow: 1px 1px 2px $gris-rosa, 0 0 1em $gris-claro, 0 0 0.2em black;
+            
+            }
+        }
+    }
+    .redes{
+        grid-area:redes;
+        background-color: $gris-claro;
+        margin: 20px;
+        height: 100px;
+        width: 300px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 1px $gris-rosa;
+        div{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .redes-iconos{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+main{
+    section{
+        .us-parrafo{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: max-content;
+            margin: 0px 130px;
+            margin-bottom: 50px;
+            p{
+                color: $gris-rosa;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'Raleway', sans-serif;
+                padding: 10px;
+                background-color: $gris-claro;
+                border-radius: 20px;
+                width: auto;
+                box-shadow: 3px 3px 1px $gris-rosa;
+            }
+        }
+    }
+}

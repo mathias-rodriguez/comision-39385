@@ -1,0 +1,165 @@
+// header{
+//     .logo-bt{
+//         height: 110px;
+//         width: auto;
+//         margin: 0px -16px;
+//         a{
+//             img{
+//                 height: 100%;
+//                 width: auto;
+//             }
+//         }
+//     }
+//     .navbar-bt{
+//         margin-top: 14px;
+//         text-align: center;
+//     }
+//     .buscador-bt{
+//         align-items: center;
+//         input{
+//             height: 40px;
+//             width: 70px;
+//             padding: 4px;
+//             &:placeholder{
+//                 // font-size: 0.5rem;
+//             }
+//         }
+//     }
+// }
+// main{
+//     .h1-bt{
+//         font-weight: bold;
+//     }
+//     #carouselExampleCaptions{
+//         margin: 20px 20%;
+//         margin-bottom: 40px;
+//         h5{
+//             font-size: 34px;
+//             color: $rojo;
+//             text-transform: uppercase;
+//             text-shadow: 1px 1px 1px $gris-rosa;
+//         }
+//     }
+// }
+// .footer-bt{
+//     // row-gap: 0px;
+//     .contacto-bt{
+//         grid-area: contacto;
+//         background-color: $gris-claro;
+//         height: 100px;
+//         font-size: 14px;
+//         text-align: center;
+//         margin: 20px;
+//         margin-left: 40px;
+//         padding: 2px;
+//         border-radius: 20px;
+//         box-shadow: 3px 3px 1px $gris-rosa;
+//         .mail-bt{
+//             display: inline-flex;
+//             align-items: center;
+//             a{
+//                 img{
+//                     height: 20px;
+//                     width: 20px;
+//                     margin: 0;
+//                     justify-content: center;
+//                     align-items: center;
+//                 }
+//             }
+//             p{
+//                 padding: 0;
+//                 margin: 0;
+//                 padding-left: 5px;
+//             }
+//         }
+//         .telefono-wasap-bt{
+//             display: inline-flex;
+//             justify-content: center;
+//             margin: 4px 0;
+//             a{
+//                 img{
+//                     height: 20px;
+//                     width: 20px;
+//                     padding: 2px;
+//                 }
+//             }
+//             p{
+//                 padding: 0;
+//                 margin: 0;
+//                 padding-left: 5px;
+//             }
+//         }
+//         .ubicacion{
+//             margin-top: 4px;
+//             font-size: 16px;
+//             font-weight: bold;
+//         }
+//     }
+//     .derechos{
+//         .derecho{
+//             h3{
+//                 margin-top: 0px;
+//                 margin-bottom: 1px;
+//             }
+//         }
+//     }
+//     .newsletter-bt{
+//         grid-area: newsletter;
+//         display: inline-flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         text-align: center;
+//         margin: 20px;
+//         height: 100px;
+//         width: auto;
+//         background-color: #D9D9D9;
+//         border-radius: 20px;
+//         box-shadow: 3px 3px 1px #856664;
+//         .newsletter-titulo-bt{
+//             padding: 10px;
+//             padding-top: 1px;
+//             h3{
+//                 font-size: 18px;
+//                 font-weight: bold;
+//             }
+//             form{
+//                 .subscribe-bt{
+//                     input{
+//                         font-size: 14px;
+//                         border: none;
+//                         padding: 2px;
+//                         border-radius: 10px;
+//                         box-shadow: 3px 3px 1px $gris-rosa;
+//                     }
+//                     button{
+//                         font-size: 14px;
+//                         color: $gris-claro;
+//                         background-color: $bordo;
+//                         padding: 2px;
+//                         border-radius: 10px;
+//                         border: none;
+//                         box-shadow: 3px 3px 1px $gris-rosa;
+//                         font-family: 'Raleway', sans-serif;
+//                         &:hover{
+//                             background-color: $rojo;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .redes{
+//         .redes-titulo-bt{
+//             padding: 5px;
+//             padding-top: 10px;
+//             font-weight: bold;
+//             display: flex;
+//             justify-content: center;
+//             h3{
+//                 font-size: 20px;
+//                 font-weight: bold;
+//                 text-transform: uppercase;
+//             }
+//         }
+//     }
+// }

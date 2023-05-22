@@ -1,5 +1,7 @@
-body {
-  background-color: black; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 header {
   width: 100%;
@@ -10,18 +12,465 @@ header {
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Raleway', sans-serif; }
-  header h1 {
-    color: #856664;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px; }
-
-.logo {
-  height: 110px;
-  width: auto; }
-  .logo a img {
-    height: 100%;
+  header div {
+    display: flex;
+    justify-content: center;
+    height: 110px;
     width: auto; }
+    header div a img {
+      height: 100%;
+      width: auto; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px; }
+    header nav ul li a {
+      color: #D9D9D9;
+      font-size: 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: #440401;
+      border: solid 3px black;
+      border-radius: 20px;
+      padding: 5px 10px;
+      box-shadow: 3px 3px 1px #856664; }
+      header nav ul li a:hover {
+        background-color: #b90b00; }
+
+.buscador {
+  align-items: center; }
+  .buscador input {
+    height: 40px;
+    width: 70px;
+    padding: 4px; }
+    .buscador input::placeholder {
+      font-size: 16px;
+      text-align: center; }
+
+#search {
+  opacity: 80%;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 1px #856664; }
+
+body {
+  background-color: black; }
+
+main h1 {
+  color: #856664;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px; }
+
+main .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  height: 100%;
+  position: relative;
+  margin: 0px 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif; }
+  main .cards article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: fit-content;
+    width: auto; }
+    main .cards article img {
+      width: 90%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px #856664; }
+    main .cards article div h2 {
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 5px;
+      margin-bottom: 3px;
+      padding: 0px 5px; }
+      main .cards article div h2 a {
+        text-decoration: none;
+        color: black; }
+    main .cards article div .read-more {
+      background-color: #b90b00;
+      color: #D9D9D9;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+      margin-bottom: 5px;
+      padding: 2px;
+      box-shadow: 3px 3px 1px #856664; }
+
+main .artista {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px; }
+
+main .album {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 0px 5px; }
+
+main .buy {
+  background-color: #b90b00;
+  color: #D9D9D9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 2px;
+  box-shadow: 3px 3px 1px #856664; }
+
+main .cards-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  position: relative;
+  margin: 0px 50px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif; }
+  main .cards-videos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: fit-content;
+    width: auto;
+    box-shadow: 3px 3px 1px #856664; }
+    main .cards-videos article iframe {
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px #856664; }
+    main .cards-videos article div h2 {
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 5px;
+      margin-bottom: 3px;
+      padding: 0px 5px; }
+      main .cards-videos article div h2 a {
+        text-decoration: none;
+        color: black; }
+    main .cards-videos article div p {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 5px;
+      padding: 0px 5px; }
+
+main section .us-parrafo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content;
+  margin: 0px 130px;
+  margin-bottom: 50px; }
+  main section .us-parrafo p {
+    color: #856664;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: auto;
+    box-shadow: 3px 3px 1px #856664; }
+
+footer {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/img/casete-3.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  row-gap: 5px;
+  font-family: 'Raleway', sans-serif;
+  grid-template-areas: "contacto newsletter redes" "contacto derechos redes"; }
+  footer .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: contacto;
+    background-color: #D9D9D9;
+    height: 100px;
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #856664; }
+    footer .contacto div {
+      padding: 2px;
+      display: inline-flex;
+      align-items: center; }
+      footer .contacto div a img {
+        height: 20px;
+        width: 20px; }
+      footer .contacto div p {
+        padding: 5px; }
+    footer .contacto h3 {
+      padding: 2px;
+      font-size: 14px; }
+  footer .telefono-wasap {
+    display: inline-flex;
+    align-items: center; }
+    footer .telefono-wasap a img {
+      height: 20px;
+      width: 20px;
+      padding: 2px; }
+    footer .telefono-wasap p {
+      padding: 5px; }
+  footer .newsletter {
+    grid-area: newsletter;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #856664; }
+    footer .newsletter div {
+      padding: 10px;
+      padding-top: 8px;
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 16px; }
+      footer .newsletter div form div {
+        padding: 10px;
+        padding-top: 0; }
+        footer .newsletter div form div input {
+          border: none;
+          padding: 3px;
+          border-radius: 10px;
+          box-shadow: 3px 3px 1px #856664; }
+        footer .newsletter div form div button {
+          color: #D9D9D9;
+          background-color: #440401;
+          padding: 5px;
+          border-radius: 10px;
+          border: none;
+          box-shadow: 3px 3px 1px #856664;
+          font-family: 'Raleway', sans-serif;
+          cursor: pointer; }
+          footer .newsletter div form div button:hover {
+            background-color: #b90b00; }
+  footer .derechos {
+    grid-area: derechos; }
+    footer .derechos div {
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-self: flex-end; }
+      footer .derechos div h3 {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #020202;
+        text-shadow: 1px 1px 2px #856664, 0 0 1em #D9D9D9, 0 0 0.2em black; }
+  footer .redes {
+    grid-area: redes;
+    background-color: #D9D9D9;
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #856664; }
+    footer .redes div {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 16px; }
+    footer .redes .redes-iconos {
+      display: flex;
+      justify-content: center;
+      gap: 20px; }
+
+@media (max-width: 1024px) {
+  header nav ul {
+    gap: 18px; }
+    header nav ul li a {
+      font-size: 20px; }
+  main .cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 22px;
+    margin: 0px 10px;
+    margin-bottom: 30px; }
+  main .cards-videos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 22px;
+    margin: 0px 10px;
+    margin-bottom: 30px; }
+  main .titulo-articulo {
+    font-size: 16px; }
+  footer {
+    background-image: url(/assets/img/casete-crop.jpg);
+    background-position: center;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    gap: 10px;
+    grid-template-areas: "redes" "newsletter" "contacto" "derechos"; }
+    footer .contacto {
+      height: auto;
+      width: 80%;
+      font-size: 12px; }
+      footer .contacto h3 {
+        font-size: 14px; }
+    footer h3 {
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 4px; }
+    footer .newsletter {
+      height: auto;
+      width: 80%; }
+      footer .newsletter .newsletter-titulo h3 {
+        margin-bottom: 0px; }
+      footer .newsletter div form div input {
+        margin: 3px; }
+    footer .redes {
+      height: auto;
+      width: 80%; }
+      footer .redes .redes-titulo {
+        padding-top: 20px; } }
+
+@media (max-width: 768px) {
+  header {
+    background-image: url(../assets/img/micro-bandana.jpg);
+    height: auto;
+    flex-direction: column;
+    gap: 20px; }
+    header .logo {
+      height: 100px;
+      margin: 0; }
+    header .logo-bt {
+      height: 100px;
+      margin: 0; }
+    header nav ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 20px; }
+      header nav ul li a {
+        font-size: 30px; }
+    header .buscador {
+      display: none; }
+  main .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 22px;
+    margin: 0px 10px;
+    margin-bottom: 30px; }
+    main .cards article div h2 {
+      font-size: 16px; }
+    main .cards article div .read-more {
+      font-size: 14px; }
+  main .cards-videos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 22px;
+    margin: 0px 40px;
+    margin-bottom: 30px; }
+  footer {
+    background-size: cover;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas: "redes" "newsletter" "contacto" "derechos"; }
+    footer .contacto {
+      height: 150px;
+      width: 70%;
+      margin: 10px 50px; }
+      footer .contacto div a img {
+        height: 20px;
+        width: auto; }
+    footer .newsletter {
+      height: 150px;
+      width: 70%;
+      margin: 10px 50px; }
+      footer .newsletter .subscribe input {
+        text-align: center;
+        font-size: 16px;
+        height: 40px;
+        width: 200px; }
+      footer .newsletter .subscribe button {
+        font-size: 20px;
+        height: 50px;
+        width: 200px; }
+    footer .redes {
+      height: 150px;
+      width: 70%;
+      margin: 10px 50px; }
+      footer .redes .redes-iconos a img {
+        height: 40px; } }
+
+@media (max-width: 620px) {
+  main .cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 22px;
+    margin: 0px 60px;
+    margin-bottom: 30px; }
+    main .cards article div h2 {
+      font-size: 16px; }
+    main .cards article div .read-more {
+      font-size: 14px; }
+  footer .newsletter div h3 {
+    margin-top: 5px; }
+  footer .newsletter .subscribe input {
+    font-size: 14px;
+    height: 40px;
+    width: 120px; }
+  footer .newsletter .subscribe button {
+    font-size: 20px;
+    height: 50px;
+    width: 100px; }
+  footer .redes div h3 {
+    margin-top: 5px; } }
+
+@media (max-width: 425px) {
+  header {
+    width: 100vh; }
+  main {
+    width: 100vh; }
+    main .cards {
+      gap: 22px;
+      margin-bottom: 30px; }
+      main .cards article div h2 {
+        font-size: 16px; }
+      main .cards article div .read-more {
+        font-size: 14px; }
+  footer {
+    width: 100vh; } }

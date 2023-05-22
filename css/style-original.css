@@ -271,33 +271,33 @@ h1{
 }
 
 
-.carousel-inner h5{
+/* .carousel-inner h5{
     font-size: 34px;
     color: #b90b00;
     text-transform: uppercase;
     /* text-shadow: 1px 1px 1px #856664, 0 0 0.1em #D9D9D9, 0 0 0.1em black; */
-    text-shadow: 1px 1px 1px #856664;
-}
+    /* text-shadow: 1px 1px 1px #856664;
+} */
 .carousel-inner p{
     font-weight: bold;
     color: #D9D9D9;
     text-shadow: 1px 1px 1px #440401;
     font-size: 24px;
     text-transform: capitalize;
-}
+} */
 
-#carouselExampleCaptions{
+/* #carouselExampleCaptions{
     margin: 20px 20%;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
     /* width: 700px;
     height: 500px; */
-}
+/* } */
 /* .carousel-item img{
     display: flex;
     justify-content: center;
     align-items: center;
 } */
-.h1-bt{
+/* .h1-bt{
     font-weight: bold;
 }
 .navbar-bt{
@@ -307,7 +307,7 @@ h1{
 .footer-bt h3{
     font-size: 16px;
     font-weight: bold;
-}
+} */
 
 
 
@@ -472,7 +472,7 @@ footer{
     /* text-shadow: 3px 3px 3px 3px #856664; */
     text-shadow: 1px 1px 2px #856664, 0 0 1em #D9D9D9, 0 0 0.2em black;
 }
-.contacto-bt{
+/* .contacto-bt{
     grid-area: contacto;
     background-color: #D9D9D9;
     height: 100px;
@@ -514,11 +514,11 @@ footer{
     height: 20px;
     width: 20px;
     padding: 2px;
-}
-.ubicacion{
+} */
+/* .ubicacion{
     margin-top: 4px;
-}
-.newsletter-titulo-bt h3{
+} */
+/* .newsletter-titulo-bt h3{
     font-size: 20px;
     font-weight: bold;
 }
@@ -559,7 +559,7 @@ footer{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 /* div p{
     color: #000000;
     font-family: 'Comfortaa', cursive;

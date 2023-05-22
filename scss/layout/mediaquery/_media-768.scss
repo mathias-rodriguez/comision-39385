@@ -1,0 +1,117 @@
+@media(max-width:768px){
+    header{
+        background-image: url(../assets/img/micro-bandana.jpg);
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        .logo{
+            height: 100px;
+            margin: 0;
+        }
+        .logo-bt{
+            height: 100px;
+            margin: 0;
+        }
+        nav{
+            ul{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                padding-bottom: 20px;
+                li{
+                    a{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        .buscador{
+            display: none;
+        }
+    }
+    main{
+        .cards{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            gap: 22px;
+            margin: 0px 10px;
+            margin-bottom: 30px;
+            article{
+                div{
+                    h2{
+                        font-size: 16px;
+                    }
+                    .read-more{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .cards-videos{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            gap: 22px;
+            margin: 0px 40px;
+            margin-bottom: 30px;
+        }
+    }
+    footer{
+        // background-image: url(../assets/img/casete-3.jpg);
+        background-size: cover;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        grid-template-areas: 
+        "redes"
+        "newsletter"
+        "contacto"
+        "derechos";
+        .contacto{
+            height: 150px;
+            width: 70%;
+            margin: 10px 50px;
+            // font-size: 18px;
+            div{
+                a{
+                    img{
+                        height: 20px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .newsletter{
+            height: 150px;
+            width: 70%;
+            margin: 10px 50px;
+            .subscribe{
+                input{
+                    text-align: center;
+                    font-size: 16px;
+                    height: 40px;
+                    width: 200px;
+                }
+                button{
+                    font-size: 20px;
+                    height: 50px;
+                    width: 200px;
+                }
+            }
+        }
+        .redes{
+            height: 150px;
+            width: 70%;
+            margin: 10px 50px;
+            .redes-iconos{
+                a{
+                    img{
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

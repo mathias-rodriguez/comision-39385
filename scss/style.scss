@@ -1,32 +1,15 @@
-body{
-    background-color: black;
-}
-header{
-    width: 100%;
-    background-image: url(../assets/img/micro-bandana-crop.jpg);
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    h1{
-        color: #856664;
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 25px;
-    }
-}
-.logo{
-    height: 110px;
-    width: auto;
-    a{
-        img{
-            height: 100%;
-            width: auto;
-        }
-    }
-}
+@import "./utilities/variables";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/body";
+@import "./layout/main-index";
+@import "./layout/main-news";
+@import "./layout/main-shop";
+@import "./layout/main-videos";
+@import "./layout/main-about-us";
+@import "./layout/footer";
+// @import "./components/bootstrap";
+@import "./layout/mediaquery/media-1024";
+@import "./layout/mediaquery/media-768";
+@import "./layout/mediaquery/media-620";
+@import "./layout/mediaquery/media-425";
