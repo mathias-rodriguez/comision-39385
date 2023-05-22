@@ -22,5 +22,8 @@ main{
         margin-bottom: 5px;
         padding: 2px;
         box-shadow: 3px 3px 1px $gris-rosa;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }

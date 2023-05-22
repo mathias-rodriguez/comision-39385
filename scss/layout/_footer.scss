@@ -146,6 +146,15 @@ footer{
             display: flex;
             justify-content: center;
             gap: 20px;
+            a{
+                img{
+                    height: 30px;
+                    width: auto;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
         }
     }
 }

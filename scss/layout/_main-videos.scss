@@ -8,6 +8,7 @@ main{
         margin: 0px 50px;
         margin-bottom: 50px;
         font-family: 'Raleway', sans-serif;
+        transition: 400ms;
         article{
             display: flex;
             flex-direction: column;
@@ -21,6 +22,9 @@ main{
             iframe{
                 border-radius: 20px;
                 box-shadow: 1px 1px 1px $gris-rosa;
+                &:hover{
+                    transform: rotate(-5deg);
+                }
             }
             div{
                 h2{
