@@ -161,14 +161,14 @@ body {
   .header-index .buscador {
     display: none; }
 
-main .titulo-principal {
+.main-index .titulo-principal {
   background-image: url(../../assets/img/ds-letras.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   width: auto; }
-  main .titulo-principal .welcome {
+  .main-index .titulo-principal .welcome {
     font-size: 50px; }
 
 .titulo-principal {
@@ -179,7 +179,7 @@ main .titulo-principal {
   0%,
   100% {
     opacity: 1; }
-  0.02% {
+  -0.02% {
     opacity: 1; }
   0% {
     opacity: 1; }
@@ -352,7 +352,7 @@ main .titulo-principal {
   0%,
   100% {
     opacity: 1; }
-  0.02% {
+  -0.02% {
     opacity: 1; }
   0% {
     opacity: 1; }
@@ -677,8 +677,7 @@ footer {
   justify-items: center;
   row-gap: 5px;
   font-family: 'Raleway', sans-serif;
-  grid-template-areas: "contacto newsletter redes"
- "contacto derechos redes"; }
+  grid-template-areas: "contacto newsletter redes" "contacto derechos redes"; }
   footer .contacto {
     display: flex;
     flex-direction: column;
@@ -811,7 +810,7 @@ footer {
   main .titulo-articulo {
     font-size: 16px; }
   footer {
-    background-image: url(/assets/img/casete-crop.jpg);
+    background-image: url(../../../assets/img/casete-crop.jpg);
     background-position: center;
     height: auto;
     display: grid;
@@ -819,10 +818,7 @@ footer {
     grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     gap: 10px;
-    grid-template-areas: "redes"
- "newsletter"
- "contacto"
- "derechos"; }
+    grid-template-areas: "redes" "newsletter" "contacto" "derechos"; }
     footer .contacto {
       height: auto;
       width: 80%;
@@ -885,16 +881,14 @@ footer {
     margin: 0px 40px;
     margin-bottom: 30px; }
   footer {
+    background-image: url(../../../assets/img/casete-3.jpg);
     background-size: cover;
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
-    grid-template-areas: "redes"
- "newsletter"
- "contacto"
- "derechos"; }
+    grid-template-areas: "redes" "newsletter" "contacto" "derechos"; }
     footer .contacto {
       height: 150px;
       width: 70%;
