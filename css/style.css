@@ -1162,7 +1162,7 @@ footer {
   main .titulo-articulo {
     font-size: 16px; }
   footer {
-    background-image: url(../../../assets/img/casete-crop.jpg);
+    background-image: url(/assets/img/casete-crop.jpg);
     background-position: center;
     height: auto;
     display: grid;
