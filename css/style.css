@@ -1233,7 +1233,7 @@ footer {
     margin: 0px 40px;
     margin-bottom: 30px; }
   footer {
-    background-image: url(../../../assets/img/casete-3.jpg);
+    background-image: url(/assets/img/casete-crop.jpg);
     background-size: cover;
     height: auto;
     display: grid;
@@ -1304,9 +1304,11 @@ footer {
       gap: 22px;
       margin-bottom: 30px; }
       main .cards article div h2 {
-        font-size: 16px; }
+        font-size: 18px; }
       main .cards article div .read-more {
-        font-size: 14px; }
+        font-size: 20px; }
+      main .cards article div .buy {
+        font-size: 20px; }
     main section .us-parrafo {
       margin: 0px 30px;
       margin-bottom: 50px;
