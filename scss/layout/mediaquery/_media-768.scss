@@ -30,6 +30,14 @@
             display: none;
         }
     }
+    .header-index{
+        .logo{
+            display: none;
+        }
+        nav{
+            margin-top: 20px;
+        }
+    }
     main{
         .cards{
             grid-template-columns: 1fr 1fr;
@@ -57,7 +65,8 @@
         }
     }
     footer{
-        background-image: url(/assets/img/casete-crop.jpg);
+        // background-image: url(../assets/img/casete-crop.jpg);
+        background-image: url(../../../assets/img/casete-crop.jpg);
         background-size: cover;
         height: auto;
         display: grid;

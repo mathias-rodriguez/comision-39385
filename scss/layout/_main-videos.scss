@@ -22,9 +22,9 @@ main{
             iframe{
                 border-radius: 20px;
                 box-shadow: 1px 1px 1px $gris-rosa;
-                &:hover{
-                    transform: rotate(-5deg);
-                }
+                // &:hover{
+                //     transform: rotate(-5deg);
+                // }
             }
             div{
                 h2{

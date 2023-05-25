@@ -982,8 +982,6 @@ main .cards-videos {
     main .cards-videos article iframe {
       border-radius: 20px;
       box-shadow: 1px 1px 1px #856664; }
-      main .cards-videos article iframe:hover {
-        transform: rotate(-5deg); }
     main .cards-videos article div h2 {
       text-transform: capitalize;
       text-align: center;
@@ -1216,6 +1214,10 @@ footer {
         font-size: 30px; }
     header .buscador {
       display: none; }
+  .header-index .logo {
+    display: none; }
+  .header-index nav {
+    margin-top: 20px; }
   main .cards {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -1233,7 +1235,7 @@ footer {
     margin: 0px 40px;
     margin-bottom: 30px; }
   footer {
-    background-image: url(/assets/img/casete-crop.jpg);
+    background-image: url(../../../assets/img/casete-crop.jpg);
     background-size: cover;
     height: auto;
     display: grid;
@@ -1311,7 +1313,6 @@ footer {
         font-size: 20px; }
     main section .us-parrafo {
       margin: 0px 30px;
-      margin-bottom: 50px;
-      font-size: 12px; }
+      margin-bottom: 50px; }
   footer {
     width: 100vh; } }
