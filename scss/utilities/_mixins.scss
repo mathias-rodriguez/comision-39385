@@ -1,0 +1,6 @@
+@mixin cards($colum, $row, $gridgap){
+    display: grid;
+    grid-template-columns: $colum;
+    grid-template-rows: $row;
+    grid-gap: $gridgap;
+}

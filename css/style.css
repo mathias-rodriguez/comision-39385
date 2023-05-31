@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: solid 2px red; }
 
 header {
   width: 100%;
@@ -1219,18 +1220,18 @@ footer {
   .header-index nav {
     margin-top: 20px; }
   main .cards {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
+    grid-gap: none;
     gap: 22px;
     margin: 0px 10px;
     margin-bottom: 30px; }
-    main .cards article div h2 {
-      font-size: 16px; }
-    main .cards article div .read-more {
-      font-size: 14px; }
   main .cards-videos {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+    grid-gap: none;
     gap: 22px;
     margin: 0px 40px;
     margin-bottom: 30px; }
@@ -1271,31 +1272,39 @@ footer {
         height: 40px; } }
 
 @media (max-width: 620px) {
-  main .cards {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
-    gap: 22px;
-    margin: 0px 60px;
-    margin-bottom: 30px; }
-    main .cards article div h2 {
-      font-size: 16px; }
-    main .cards article div .read-more {
-      font-size: 14px; }
+  header {
+    width: 100vh; }
+  main {
+    width: 100vh; }
+    main .cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(8, 1fr);
+      gap: 22px;
+      margin: 0px 60px;
+      margin-bottom: 30px; }
+      main .cards article div h2 {
+        font-size: 24px; }
+      main .cards article div .read-more {
+        font-size: 24px; }
+      main .cards article div .buy {
+        font-size: 24px; }
   .main-index .imagen-principal img {
     width: 60vh;
     height: auto; }
-  footer .newsletter div h3 {
-    margin-top: 5px; }
-  footer .newsletter .subscribe input {
-    font-size: 14px;
-    height: 40px;
-    width: 120px; }
-  footer .newsletter .subscribe button {
-    font-size: 20px;
-    height: 50px;
-    width: 100px; }
-  footer .redes div h3 {
-    margin-top: 5px; } }
+  footer {
+    width: 100vh; }
+    footer .newsletter div h3 {
+      margin-top: 5px; }
+    footer .newsletter .subscribe input {
+      font-size: 14px;
+      height: 40px;
+      width: 120px; }
+    footer .newsletter .subscribe button {
+      font-size: 20px;
+      height: 50px;
+      width: 100px; }
+    footer .redes div h3 {
+      margin-top: 5px; } }
 
 @media (max-width: 425px) {
   header {
@@ -1305,12 +1314,6 @@ footer {
     main .cards {
       gap: 22px;
       margin-bottom: 30px; }
-      main .cards article div h2 {
-        font-size: 18px; }
-      main .cards article div .read-more {
-        font-size: 20px; }
-      main .cards article div .buy {
-        font-size: 20px; }
     main section .us-parrafo {
       margin: 0px 30px;
       margin-bottom: 50px; }

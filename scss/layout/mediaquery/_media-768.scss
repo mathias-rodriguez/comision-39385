@@ -40,25 +40,27 @@
     }
     main{
         .cards{
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(4, 1fr);
+            @include cards(1fr 1fr, repeat(4, 1fr), none);
+            // grid-template-columns: 1fr 1fr;
+            // grid-template-rows: repeat(4, 1fr);
             gap: 22px;
             margin: 0px 10px;
             margin-bottom: 30px;
-            article{
-                div{
-                    h2{
-                        font-size: 16px;
-                    }
-                    .read-more{
-                        font-size: 14px;
-                    }
-                }
-            }
+            // article{
+            //     div{
+            //         h2{
+            //             font-size: 16px;
+            //         }
+            //         .read-more{
+            //             font-size: 14px;
+            //         }
+            //     }
+            // }
         }
         .cards-videos{
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(4, 1fr);
+            @include cards(1fr, repeat(4, 1fr), none);
+            // grid-template-columns: 1fr;
+            // grid-template-rows: repeat(4, 1fr);
             gap: 22px;
             margin: 0px 40px;
             margin-bottom: 30px;
@@ -74,10 +76,10 @@
         grid-template-rows: repeat(4, 1fr);
         gap: 10px;
         grid-template-areas: 
-        "redes"
-        "newsletter"
-        "contacto"
-        "derechos";
+            "redes"
+            "newsletter"
+            "contacto"
+            "derechos";
         .contacto{
             height: 150px;
             width: 70%;

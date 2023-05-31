@@ -1,9 +1,10 @@
 main{
     .cards-videos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 30px ;
+        @include cards(repeat(3, 1fr), repeat(2, 1fr), 30px);
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // grid-template-rows: repeat(2, 1fr);
+        // grid-gap: 30px ;
         position: relative;
         margin: 0px 50px;
         margin-bottom: 50px;
