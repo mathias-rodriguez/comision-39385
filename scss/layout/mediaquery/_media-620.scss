@@ -13,14 +13,21 @@
             article{
                 div{
                     h2{
-                        font-size: 24px;
+                        font-size: 26px;
                     }
                     .read-more{
-                        font-size: 24px;
+                        font-size: 26px;
                     }
                     .buy{
-                        font-size: 24px;
+                        font-size: 26px;
                     }
+                }
+            }
+        }
+        section{
+            .us-parrafo{
+                p{
+                    font-size: 20px;
                 }
             }
         }
@@ -39,7 +46,6 @@
             div{
                 h3{
                     margin-top: 5px;
-
                     // font-size: 20px;
                     // margin-bottom: 0px;
                 }

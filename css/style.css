@@ -1250,10 +1250,16 @@ footer {
       footer .contacto div a img {
         height: 20px;
         width: auto; }
+      footer .contacto div p {
+        font-size: 18px; }
+      footer .contacto h3 {
+        font-size: 20px; }
     footer .newsletter {
       height: 150px;
       width: 70%;
       margin: 10px 50px; }
+      footer .newsletter .newsletter-titulo h3 {
+        font-size: 20px; }
       footer .newsletter .subscribe input {
         text-align: center;
         font-size: 16px;
@@ -1267,8 +1273,12 @@ footer {
       height: 150px;
       width: 70%;
       margin: 10px 50px; }
+      footer .redes .redes-titulo h3 {
+        font-size: 20px; }
       footer .redes .redes-iconos a img {
-        height: 40px; } }
+        height: 40px; }
+    footer .derechos div h3 {
+      font-size: 22px; } }
 
 @media (max-width: 620px) {
   header {
@@ -1282,11 +1292,13 @@ footer {
       margin: 0px 60px;
       margin-bottom: 30px; }
       main .cards article div h2 {
-        font-size: 24px; }
+        font-size: 26px; }
       main .cards article div .read-more {
-        font-size: 24px; }
+        font-size: 26px; }
       main .cards article div .buy {
-        font-size: 24px; }
+        font-size: 26px; }
+    main section .us-parrafo p {
+      font-size: 20px; }
   .main-index .imagen-principal img {
     width: 60vh;
     height: auto; }
@@ -1310,6 +1322,8 @@ footer {
     width: 100vh; }
     header .logo {
       display: none; }
+    header nav ul {
+      padding-top: 20px; }
   main {
     width: 100vh; }
     main .cards {
