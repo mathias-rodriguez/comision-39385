@@ -1299,6 +1299,10 @@ footer {
         font-size: 30px; }
     main section .us-parrafo p {
       font-size: 24px; }
+    main .cards-videos article div h2 {
+      font-size: 30px; }
+    main .cards-videos article div p {
+      font-size: 24px; }
   .main-index .imagen-principal img {
     width: 60vh;
     height: auto; }
@@ -1324,13 +1328,18 @@ footer {
       display: none; }
     header nav ul {
       padding-top: 20px; }
+      header nav ul li a {
+        font-size: 30px; }
   main {
     width: 100vh; }
     main .cards {
       gap: 22px;
+      margin: 0px 30px;
       margin-bottom: 30px; }
     main section .us-parrafo {
       margin: 0px 30px;
       margin-bottom: 50px; }
+    main .cards-videos {
+      margin: 0px 30px; }
   footer {
     width: 100vh; } }
