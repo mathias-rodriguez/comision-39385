@@ -1,5 +1,8 @@
 @media(max-width:425px){
     header{
+        .logo{
+            display: none;
+        }
         width: 100vh;
     }
     main{

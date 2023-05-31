@@ -46,16 +46,6 @@
             gap: 22px;
             margin: 0px 10px;
             margin-bottom: 30px;
-            // article{
-            //     div{
-            //         h2{
-            //             font-size: 16px;
-            //         }
-            //         .read-more{
-            //             font-size: 14px;
-            //         }
-            //     }
-            // }
         }
         .cards-videos{
             @include cards(1fr, repeat(4, 1fr), none);
@@ -68,7 +58,7 @@
     }
     footer{
         // background-image: url(../assets/img/casete-crop.jpg);
-        background-image: url(../../../assets/img/casete-crop.jpg);
+        background-image: url(../assets/img/casete-crop.jpg);
         background-size: cover;
         height: auto;
         display: grid;

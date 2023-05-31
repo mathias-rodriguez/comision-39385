@@ -1160,7 +1160,7 @@ footer {
   main .titulo-articulo {
     font-size: 16px; }
   footer {
-    background-image: url(/assets/img/casete-crop.jpg);
+    background-image: url(../assets/img/casete-crop.jpg);
     background-position: center;
     height: auto;
     display: grid;
@@ -1235,7 +1235,7 @@ footer {
     margin: 0px 40px;
     margin-bottom: 30px; }
   footer {
-    background-image: url(../../../assets/img/casete-crop.jpg);
+    background-image: url(../assets/img/casete-crop.jpg);
     background-size: cover;
     height: auto;
     display: grid;
@@ -1308,6 +1308,8 @@ footer {
 @media (max-width: 425px) {
   header {
     width: 100vh; }
+    header .logo {
+      display: none; }
   main {
     width: 100vh; }
     main .cards {
