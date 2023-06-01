@@ -7,6 +7,10 @@
         .cards-videos{
             gap: 40px;
             margin-bottom: 50px;
+            iframe{
+                height: 250px;
+                width: 250px;
+            }
         }
         .cards-shop{
             gap: 40px
