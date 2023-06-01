@@ -55,6 +55,18 @@
             margin: 0px 40px;
             margin-bottom: 30px;
         }
+        .cards-shop{
+            @include cards(1fr 1fr, repeat(3, 1fr), none);
+            gap: 22px;
+            margin: 0px 10px;
+            margin-bottom: 30px;
+        }
+        section{
+            margin-bottom: 30px;
+            .us-parrafo{
+                margin: 0px 30px;
+            }
+        }
     }
     footer{
         // background-image: url(../assets/img/casete-crop.jpg);

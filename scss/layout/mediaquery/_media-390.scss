@@ -1,0 +1,40 @@
+@media (max-width:390px){
+
+    main{
+        .cards{
+            gap: 40px;
+        }
+        .cards-videos{
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        .cards-shop{
+            gap: 40px
+        }
+    }
+    footer{
+        .contacto{
+            margin: 0;
+        }
+        .newsletter{
+            margin: 0;
+            .subscribe{
+                button{
+                    font-size: 14px;
+                }
+            }
+        }
+        .derechos{
+            width: auto;
+            .derecho{
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+        .redes{
+            width: max-content;
+            margin: 0;
+        }
+    }
+}

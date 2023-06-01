@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: solid 2px red; }
 
 header {
   width: 100%;
@@ -933,31 +934,59 @@ main .cards {
       main .cards article div .read-more:hover {
         transform: scale(1.1); }
 
-main .artista {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 5px; }
-
-main .album {
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 10px;
-  padding: 0px 5px; }
-
-main .buy {
-  background-color: #b90b00;
-  color: #D9D9D9;
+main .cards-shop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  height: 100%;
+  position: relative;
+  margin: 0px 50px;
+  margin-bottom: 50px;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  text-transform: capitalize;
-  border-radius: 10px;
-  display: block;
-  margin: auto;
-  margin-bottom: 5px;
-  padding: 2px;
-  box-shadow: 3px 3px 1px #856664; }
-  main .buy:hover {
-    transform: scale(1.1); }
+  transition: 400ms; }
+  main .cards-shop .card-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: fit-content;
+    width: auto; }
+    main .cards-shop .card-shop img {
+      width: 90%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px #856664; }
+      main .cards-shop .card-shop img:hover {
+        transform: rotate(-3deg); }
+    main .cards-shop .card-shop div .artista {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 5px; }
+      main .cards-shop .card-shop div .artista a {
+        text-decoration: none;
+        color: black; }
+    main .cards-shop .card-shop div .album {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 10px;
+      padding: 0px 5px; }
+    main .cards-shop .card-shop div .buy {
+      background-color: #b90b00;
+      color: #D9D9D9;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      text-transform: capitalize;
+      border-radius: 10px;
+      display: block;
+      margin: auto;
+      margin-bottom: 5px;
+      padding: 2px;
+      box-shadow: 3px 3px 1px #856664; }
+      main .cards-shop .card-shop div .buy:hover {
+        transform: scale(1.1); }
 
 main .cards-videos {
   display: grid;
@@ -1157,8 +1186,26 @@ footer {
     gap: 22px;
     margin: 0px 10px;
     margin-bottom: 30px; }
+  main .cards-shop {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 22px;
+    margin: 0px 10px;
+    margin-bottom: 30px; }
   main .titulo-articulo {
     font-size: 16px; }
+  main .artista {
+    font-size: 16px; }
+  .main-index .titulo-principal .welcome {
+    font-size: 40px; }
+  .main-index .imagen-principal img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    margin: 0px 10px;
+    object-fit: cover;
+    object-position: center; }
   footer {
     background-image: url(../assets/img/casete-crop.jpg);
     background-position: center;
@@ -1234,6 +1281,18 @@ footer {
     gap: 22px;
     margin: 0px 40px;
     margin-bottom: 30px; }
+  main .cards-shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: none;
+    gap: 22px;
+    margin: 0px 10px;
+    margin-bottom: 30px; }
+  main section {
+    margin-bottom: 30px; }
+    main section .us-parrafo {
+      margin: 0px 30px; }
   footer {
     background-image: url(../assets/img/casete-crop.jpg);
     background-size: cover;
@@ -1281,65 +1340,94 @@ footer {
       font-size: 22px; } }
 
 @media (max-width: 620px) {
-  header {
-    width: 100vh; }
-  main {
-    width: 100vh; }
-    main .cards {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(8, 1fr);
-      gap: 22px;
-      margin: 0px 60px;
-      margin-bottom: 30px; }
-      main .cards article div h2 {
-        font-size: 30px; }
-      main .cards article div .read-more {
-        font-size: 30px; }
-      main .cards article div .buy {
-        font-size: 30px; }
-    main section .us-parrafo p {
-      font-size: 24px; }
+  header .logo {
+    width: 100%; }
+  main .cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 30px;
+    margin: 0px 60px;
+    margin-bottom: 30px; }
+    main .cards article div h2 {
+      font-size: 30px; }
+    main .cards article div .read-more {
+      font-size: 30px; }
+    main .cards article div .buy {
+      font-size: 30px; }
+  main .cards-shop {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 30px;
+    margin: 0px 60px;
+    margin-bottom: 30px; }
+    main .cards-shop .card-shop div .artista {
+      font-size: 30px; }
+    main .cards-shop .card-shop div .album {
+      font-size: 30px; }
+    main .cards-shop .card-shop div .buy {
+      font-size: 30px; }
+  main section .us-parrafo p {
+    font-size: 24px; }
+  main .cards-videos {
+    margin: 0px 60px;
+    margin-bottom: 30px; }
     main .cards-videos article div h2 {
       font-size: 30px; }
     main .cards-videos article div p {
-      font-size: 24px; }
-  .main-index .imagen-principal img {
-    width: 60vh;
-    height: auto; }
-  footer {
-    width: 100vh; }
-    footer .newsletter div h3 {
-      margin-top: 5px; }
-    footer .newsletter .subscribe input {
-      font-size: 14px;
-      height: 40px;
-      width: 120px; }
-    footer .newsletter .subscribe button {
-      font-size: 20px;
-      height: 50px;
-      width: 100px; }
-    footer .redes div h3 {
-      margin-top: 5px; } }
+      font-size: 30px; }
+  footer .newsletter div h3 {
+    margin-top: 5px; }
+  footer .newsletter .subscribe input {
+    font-size: 14px;
+    height: 40px;
+    width: 120px; }
+  footer .newsletter .subscribe button {
+    font-size: 20px;
+    height: 50px;
+    width: 100px; }
+  footer .redes div h3 {
+    margin-top: 5px; } }
 
 @media (max-width: 425px) {
-  header {
-    width: 100vh; }
-    header .logo {
-      display: none; }
-    header nav ul {
-      padding-top: 20px; }
-      header nav ul li a {
-        font-size: 30px; }
-  main {
-    width: 100vh; }
-    main .cards {
-      gap: 22px;
-      margin: 0px 30px;
-      margin-bottom: 30px; }
-    main section .us-parrafo {
-      margin: 0px 30px;
-      margin-bottom: 50px; }
-    main .cards-videos {
-      margin: 0px 30px; }
-  footer {
-    width: 100vh; } }
+  header .logo {
+    display: none; }
+  header nav ul {
+    padding-top: 20px; }
+    header nav ul li a {
+      font-size: 30px; }
+  main .cards {
+    gap: 30px;
+    margin: 0px 30px;
+    margin-bottom: 30px; }
+  main .cards-shop {
+    gap: 30px;
+    margin: 0px 30px;
+    margin-bottom: 30px; }
+  main section .us-parrafo {
+    margin: 0px 30px;
+    margin-bottom: 50px; }
+  main .cards-videos {
+    margin: 0px 30px;
+    margin-bottom: 30px; } }
+
+@media (max-width: 390px) {
+  main .cards {
+    gap: 40px; }
+  main .cards-videos {
+    gap: 40px;
+    margin-bottom: 50px; }
+  main .cards-shop {
+    gap: 40px; }
+  footer .contacto {
+    margin: 0; }
+  footer .newsletter {
+    margin: 0; }
+    footer .newsletter .subscribe button {
+      font-size: 14px; }
+  footer .derechos {
+    width: auto; }
+    footer .derechos .derecho h3 {
+      font-size: 18px; }
+  footer .redes {
+    width: max-content;
+    margin: 0; } }
