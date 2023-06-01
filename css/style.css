@@ -4,6 +4,20 @@
   padding: 0;
   box-sizing: border-box; }
 
+.read-more, main .cards-shop .card-shop div .buy {
+  background-color: #b90b00;
+  color: #D9D9D9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 2px;
+  box-shadow: 3px 3px 1px #856664; }
+  .read-more:hover, main .cards-shop .card-shop div .buy:hover {
+    transform: scale(1.1); }
+
 header {
   width: 100%;
   background-image: url(../assets/img/micro-bandana-crop.jpg);
@@ -919,7 +933,7 @@ main .cards {
       main .cards article div h2 a {
         text-decoration: none;
         color: black; }
-    main .cards article div .read-more {
+    main .cards article div .read-more, main .cards article .cards-shop .card-shop div .buy, main .cards-shop .card-shop .cards article div .buy {
       background-color: #b90b00;
       color: #D9D9D9;
       font-family: 'Raleway', sans-serif;
@@ -930,7 +944,7 @@ main .cards {
       margin-bottom: 5px;
       padding: 2px;
       box-shadow: 3px 3px 1px #856664; }
-      main .cards article div .read-more:hover {
+      main .cards article div .read-more:hover, main .cards article .cards-shop .card-shop div .buy:hover, main .cards-shop .card-shop .cards article div .buy:hover {
         transform: scale(1.1); }
 
 main .cards-shop {
@@ -972,20 +986,6 @@ main .cards-shop {
       font-size: 16px;
       margin-bottom: 10px;
       padding: 0px 5px; }
-    main .cards-shop .card-shop div .buy {
-      background-color: #b90b00;
-      color: #D9D9D9;
-      font-family: 'Raleway', sans-serif;
-      font-size: 16px;
-      text-transform: capitalize;
-      border-radius: 10px;
-      display: block;
-      margin: auto;
-      margin-bottom: 5px;
-      padding: 2px;
-      box-shadow: 3px 3px 1px #856664; }
-      main .cards-shop .card-shop div .buy:hover {
-        transform: scale(1.1); }
 
 main .cards-videos {
   display: grid;
@@ -1026,22 +1026,26 @@ main .cards-videos {
       margin-bottom: 5px;
       padding: 0px 5px; }
 
-main section .us-parrafo {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: max-content;
-  margin: 0px 130px;
-  margin-bottom: 50px; }
-  main section .us-parrafo p {
-    color: #856664;
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    padding: 10px;
-    background-color: #D9D9D9;
-    border-radius: 20px;
-    width: auto;
-    box-shadow: 3px 3px 1px #856664; }
+main section {
+  transition: 400ms; }
+  main section .us-parrafo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    margin: 0px 130px;
+    margin-bottom: 50px; }
+    main section .us-parrafo p {
+      color: #856664;
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      padding: 20px;
+      background-color: #D9D9D9;
+      border-radius: 20px;
+      width: auto;
+      box-shadow: 3px 3px 1px #856664;
+      word-spacing: 2px; }
+      main section .us-parrafo p span {
+        font-weight: bold; }
 
 footer {
   width: 100%;
@@ -1348,9 +1352,9 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards article div h2 {
-      font-size: 30px; }
-    main .cards article div .read-more {
-      font-size: 30px; }
+      font-size: 26px; }
+    main .cards article div .read-more, main .cards article .cards-shop .card-shop div .buy, main .cards-shop .card-shop .cards article div .buy {
+      font-size: 26px; }
     main .cards article div .buy {
       font-size: 30px; }
   main .cards-shop {
@@ -1360,9 +1364,9 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-shop .card-shop div .artista {
-      font-size: 30px; }
+      font-size: 26px; }
     main .cards-shop .card-shop div .album {
-      font-size: 30px; }
+      font-size: 26px; }
     main .cards-shop .card-shop div .buy {
       font-size: 30px; }
   main section .us-parrafo p {
@@ -1371,9 +1375,9 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-videos article div h2 {
-      font-size: 30px; }
+      font-size: 26px; }
     main .cards-videos article div p {
-      font-size: 30px; }
+      font-size: 26px; }
   footer .newsletter div h3 {
     margin-top: 5px; }
   footer .newsletter .subscribe input {

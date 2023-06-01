@@ -1,5 +1,6 @@
 main{
     section{
+        transition: 400ms;
         .us-parrafo{
             display: grid;
             grid-template-columns: 1fr;
@@ -8,14 +9,18 @@ main{
             margin-bottom: 50px;
             p{
                 color: $gris-rosa;
-                text-align: center;
+                // text-align: justify;
                 font-size: 16px;
                 font-family: 'Raleway', sans-serif;
-                padding: 10px;
+                padding: 20px;
                 background-color: $gris-claro;
                 border-radius: 20px;
                 width: auto;
                 box-shadow: 3px 3px 1px $gris-rosa;
+                word-spacing: 2px;
+                span{
+                    font-weight: bold;
+                }
             }
         }
     }
