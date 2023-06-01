@@ -1313,9 +1313,9 @@ footer {
         height: 20px;
         width: auto; }
       footer .contacto div p {
-        font-size: 18px; }
+        font-size: 16px; }
       footer .contacto h3 {
-        font-size: 20px; }
+        font-size: 18px; }
     footer .newsletter {
       height: 150px;
       width: 70%;
@@ -1352,11 +1352,11 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards article div h2 {
-      font-size: 26px; }
+      font-size: 24px; }
     main .cards article div .read-more, main .cards article .cards-shop .card-shop div .buy, main .cards-shop .card-shop .cards article div .buy {
-      font-size: 26px; }
+      font-size: 24px; }
     main .cards article div .buy {
-      font-size: 30px; }
+      font-size: 28px; }
   main .cards-shop {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
@@ -1364,20 +1364,20 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-shop .card-shop div .artista {
-      font-size: 26px; }
+      font-size: 24px; }
     main .cards-shop .card-shop div .album {
-      font-size: 26px; }
+      font-size: 24px; }
     main .cards-shop .card-shop div .buy {
-      font-size: 30px; }
+      font-size: 28px; }
   main section .us-parrafo p {
     font-size: 24px; }
   main .cards-videos {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-videos article div h2 {
-      font-size: 26px; }
+      font-size: 24px; }
     main .cards-videos article div p {
-      font-size: 26px; }
+      font-size: 24px; }
   footer .newsletter div h3 {
     margin-top: 5px; }
   footer .newsletter .subscribe input {
