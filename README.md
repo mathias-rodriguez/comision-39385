@@ -17,6 +17,7 @@ Además incluye una tienda propia donde se pueden adquirir **CDs**, **vinilos**,
 - SASS
 - GITHUB
 - CANVA
+
 [![](https://img.freepik.com/free-vector/website-interface-development-planning-devops-team-flat-characters-working-ui-ux-content-design-computer-software-creation-web-development_335657-2645.jpg?w=740&t=st=1685819022~exp=1685819622~hmac=9f0c37c27b4f83ec07dd90d8ac23a8a06e1d08d33a87ed72445378082a702d0e)](http://https://img.freepik.com/free-vector/website-interface-development-planning-devops-team-flat-characters-working-ui-ux-content-design-computer-software-creation-web-development_335657-2645.jpg?w=740&t=st=1685819022~exp=1685819622~hmac=9f0c37c27b4f83ec07dd90d8ac23a8a06e1d08d33a87ed72445378082a702d0e)
 
 ## Colaboración
