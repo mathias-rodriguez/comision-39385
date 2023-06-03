@@ -1,3 +1,4 @@
+# Proyecto de página web llamada *DaShit*
 
 ### > Proyecto realizado para el curso de Desarrollo Web de **CoderHouse**.
 
@@ -22,7 +23,7 @@ Además incluye una tienda propia donde se pueden adquirir **CDs**, **vinilos**,
 
 > Podrás colaborar con nosotros para informarnos sobre alguna novedad o algún evento relacionado con el mundo del Hip Hop.
 Para colaborar con nosotros mandanos la info a nuestro mail, así podremos chequer la información y ver si es de utilidad para nuestro proyecto.
-[![](https://img.freepik.com/free-vector/flat-design-blank-email-template_23-2149954068.jpgrd?w=996&t=st=1685819147~exp=1685819747~hmac=1dd22f6f6ec4fbd8ad2245fd753c25eb2d4d13ce95d41c1fca175acc71afaf0e)](http://https://img.freepik.com/free-vector/flat-design-blank-email-template_23-2149954068.jpg?w=996&t=st=1685819147~exp=1685819747~hmac=1dd22f6f6ec4fbd8ad2245fd753c25eb2d4d13ce95d41c1fca175acc71afaf0e)
+[![](https://img.freepik.com/free-vector/emails-concept-illustration_114360-1355.jpg?w=740&t=st=1685820185~exp=1685820785~hmac=b1343d3997c0502041d2fb1fb33856954b68d2b9cb9863651315d27ec9f5c399)](http://https://img.freepik.com/free-vector/emails-concept-illustration_114360-1355.jpg?w=740&t=st=1685820185~exp=1685820785~hmac=b1343d3997c0502041d2fb1fb33856954b68d2b9cb9863651315d27ec9f5c399)
 
 ### Contacto
 
