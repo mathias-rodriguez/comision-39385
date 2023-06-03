@@ -1,19 +1,13 @@
 main{
     .cards-videos{
         @include cards(repeat(3, 1fr), repeat(2, 1fr), 30px);
-        // display: grid;
-        // grid-template-columns: repeat(3, 1fr);
-        // grid-template-rows: repeat(2, 1fr);
-        // grid-gap: 30px ;
         position: relative;
         margin: 0px 50px;
         margin-bottom: 50px;
         font-family: 'Raleway', sans-serif;
         transition: 400ms;
         article{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
+            @include flex(column, flex-start);
             align-items: center;
             background-color: $gris-claro;
             border-radius: 20px;
@@ -23,9 +17,6 @@ main{
             iframe{
                 border-radius: 20px;
                 box-shadow: 1px 1px 1px $gris-rosa;
-                // &:hover{
-                //     transform: rotate(-5deg);
-                // }
             }
             div{
                 h2{

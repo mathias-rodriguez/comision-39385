@@ -24,11 +24,13 @@ header {
   background-position: bottom;
   background-size: cover;
   display: flex;
+  flex-direction: none;
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Raleway', sans-serif; }
   header div {
     display: flex;
+    flex-direction: none;
     justify-content: center;
     height: 110px;
     width: auto; }
@@ -39,6 +41,7 @@ header {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: none;
     gap: 70px; }
     header nav ul li:hover {
       transform: scale(1.2); }
@@ -180,8 +183,9 @@ body {
 
 .main-index .imagen-principal {
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  flex-direction: none;
+  justify-content: center;
+  align-items: center; }
   .main-index .imagen-principal img {
     padding: 0, 50px;
     height: 100vh;
@@ -1026,26 +1030,61 @@ main .cards-videos {
       margin-bottom: 5px;
       padding: 0px 5px; }
 
-main section {
-  transition: 400ms; }
-  main section .us-parrafo {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: max-content;
-    margin: 0px 130px;
-    margin-bottom: 50px; }
-    main section .us-parrafo p {
-      color: #856664;
-      font-size: 16px;
-      font-family: 'Raleway', sans-serif;
-      padding: 20px;
-      background-color: #D9D9D9;
-      border-radius: 20px;
-      width: auto;
-      box-shadow: 3px 3px 1px #856664;
-      word-spacing: 2px; }
-      main section .us-parrafo p span {
-        font-weight: bold; }
+main {
+  min-height: 70vh; }
+  main section {
+    transition: 400ms; }
+    main section .us-parrafo {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: max-content;
+      margin: 0px 130px;
+      margin-bottom: 50px; }
+      main section .us-parrafo p {
+        color: #856664;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        padding: 40px;
+        background-color: #D9D9D9;
+        border-radius: 20px;
+        width: auto;
+        box-shadow: 3px 3px 1px #856664;
+        word-spacing: 2px; }
+        main section .us-parrafo p span {
+          font-weight: bold; }
+
+.us-parrafo {
+  -webkit-animation: us-parrafo 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: us-parrafo 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@-webkit-keyframes us-parrafo {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    opacity: 1; } }
+
+@keyframes sus-parrafo {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    opacity: 1; } }
 
 footer {
   width: 100%;
@@ -1113,6 +1152,7 @@ footer {
       padding: 10px;
       padding-top: 8px;
       display: flex;
+      flex-direction: none;
       justify-content: center;
       text-transform: uppercase;
       font-size: 16px; }
@@ -1140,6 +1180,7 @@ footer {
     footer .derechos div {
       border-radius: 20px;
       display: flex;
+      flex-direction: none;
       justify-content: center;
       align-self: flex-end; }
       footer .derechos div h3 {
@@ -1157,13 +1198,15 @@ footer {
     border-radius: 20px;
     box-shadow: 3px 3px 1px #856664; }
     footer .redes div {
-      padding: 10px;
       display: flex;
+      flex-direction: none;
       justify-content: center;
+      padding: 10px;
       text-transform: uppercase;
       font-size: 16px; }
     footer .redes .redes-iconos {
       display: flex;
+      flex-direction: none;
       justify-content: center;
       gap: 20px; }
       footer .redes .redes-iconos a img {
@@ -1255,6 +1298,7 @@ footer {
       height: 100px;
       margin: 0; }
     header nav ul {
+      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -1315,7 +1359,7 @@ footer {
       footer .contacto div p {
         font-size: 16px; }
       footer .contacto h3 {
-        font-size: 18px; }
+        font-size: 16px; }
     footer .newsletter {
       height: 150px;
       width: 70%;
@@ -1352,11 +1396,11 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards article div h2 {
-      font-size: 24px; }
+      font-size: 22px; }
     main .cards article div .read-more, main .cards article .cards-shop .card-shop div .buy, main .cards-shop .card-shop .cards article div .buy {
-      font-size: 24px; }
+      font-size: 22px; }
     main .cards article div .buy {
-      font-size: 28px; }
+      font-size: 26px; }
   main .cards-shop {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
@@ -1364,20 +1408,20 @@ footer {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-shop .card-shop div .artista {
-      font-size: 24px; }
+      font-size: 22px; }
     main .cards-shop .card-shop div .album {
-      font-size: 24px; }
+      font-size: 22px; }
     main .cards-shop .card-shop div .buy {
-      font-size: 28px; }
+      font-size: 26px; }
   main section .us-parrafo p {
     font-size: 24px; }
   main .cards-videos {
     margin: 0px 60px;
     margin-bottom: 30px; }
     main .cards-videos article div h2 {
-      font-size: 24px; }
+      font-size: 22px; }
     main .cards-videos article div p {
-      font-size: 24px; }
+      font-size: 22px; }
   footer .newsletter div h3 {
     margin-top: 5px; }
   footer .newsletter .subscribe input {

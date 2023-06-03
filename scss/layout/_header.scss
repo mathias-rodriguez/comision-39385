@@ -3,13 +3,15 @@ header{
         background-image: url(../assets/img/micro-bandana-crop.jpg);
         background-position: bottom;
         background-size: cover;
-        display: flex;
-        justify-content: space-evenly;
+        @include flex(none, space-evenly);
+        // display: flex;
+        // justify-content: space-evenly;
         align-items: center;
         font-family: 'Raleway', sans-serif;
         div{
-                display: flex;
-                justify-content: center;
+                @include flex(none, center);
+                // display: flex;
+                // justify-content: center;
                 height: 110px;
                 width: auto;
                 a{
@@ -22,8 +24,9 @@ header{
         nav{
                 ul{
                 list-style: none;
-                display: flex;
-                flex-direction: row;
+                @include flex(row, none);
+                // display: flex;
+                // flex-direction: row;
                 gap: 70px;
                 li{
                         &:hover{
@@ -48,7 +51,6 @@ header{
         }
         }
         .buscador{
-        // font-size: 40px;
         align-items: center;
         input{
                 height: 40px;
@@ -177,4 +179,3 @@ header{
                 animation-timing-function: ease-out;
         }
         }
-        

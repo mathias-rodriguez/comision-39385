@@ -79,8 +79,9 @@ footer{
         div{
             padding: 10px;
             padding-top: 8px;
-            display: flex;
-            justify-content: center;
+            @include flex(none, center);
+            // display: flex;
+            // justify-content: center;
             text-transform: uppercase;
             font-size: 16px;
             form{
@@ -114,8 +115,9 @@ footer{
         grid-area: derechos;
         div{
             border-radius: 20px;
-            display: flex;
-            justify-content: center;
+            @include flex(none, center);
+            // display: flex;
+            // justify-content: center;
             align-self: flex-end;
             h3{
                 margin-top: 5px;
@@ -136,15 +138,17 @@ footer{
         border-radius: 20px;
         box-shadow: 3px 3px 1px $gris-rosa;
         div{
+            @include flex(none, center);
             padding: 10px;
-            display: flex;
-            justify-content: center;
+            // display: flex;
+            // justify-content: center;
             text-transform: uppercase;
             font-size: 16px;
         }
         .redes-iconos{
-            display: flex;
-            justify-content: center;
+            @include flex(none, center);
+            // display: flex;
+            // justify-content: center;
             gap: 20px;
             a{
                 img{

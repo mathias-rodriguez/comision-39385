@@ -8,9 +8,7 @@ main{
         font-family: 'Raleway', sans-serif;
         transition: 400ms;
         .card-shop{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
+            @include flex(column, flex-start);
             align-items: center;
             background-color:$gris-claro;
             border-radius: 20px;
