@@ -2,3 +2,21 @@
 body{
     background-color: black;
 }
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track{
+    background: $gris-claro;
+    border-radius: 10px;
+    margin-block: 2px;
+}
+body::-webkit-scrollbar-thumb{
+    background: $bordo;
+    border-radius: 10px;
+    border: solid 1px black;
+    background: rgb(68,4,1);
+    background: linear-gradient(0deg, rgba(68,4,1,1) 0%, rgba(133,102,100,1) 100%);
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: $rojo;
+}
