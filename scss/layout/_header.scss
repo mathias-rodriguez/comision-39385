@@ -40,7 +40,7 @@ header{
                         background-color: $bordo;
                         border: solid 3px black;
                         border-radius: 20px;
-                        padding: 5px 10px;
+                        padding: 2px 8px;
                         box-shadow: 3px 3px 1px $gris-rosa;
                         &:hover{
                                 background-color: $rojo;
@@ -53,15 +53,20 @@ header{
         .buscador{
         align-items: center;
         input{
+                background-image: url(/assets/img/search.png);
+                background-repeat: no-repeat;
+                background-position: left;
                 height: 40px;
-                width: 70px;
-                padding: 4px;
+                width: 80px;
+                padding: 4px 2px 4px 6px;
+                // padding-left: 20px;
                 &:hover{
                 transform: scale(1.2);
                 }
                 &::placeholder{
                 font-size: 16px;
-                text-align: center;
+                text-align: right;
+                padding: 10px 0;
                 }
         }
         }
